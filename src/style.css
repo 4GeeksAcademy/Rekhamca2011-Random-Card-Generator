@@ -1,5 +1,84 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: green;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', fantasy;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Times New Roman', fantasy;
+}
+.input{
+    margin-top: 0px;
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+.card {
+    margin: auto;
     background: white;
+    height: 400px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.top-suit {
+    height: 25%;
+    font-size: 80px;
+    text-align: left;
+    color: black;    
+}
+
+.bottom-suit {
+    height: 25%;
+    font-size: 80px;
+    color: black;    
+    transform: rotate(180deg);  
+}
+
+.number {
+    height: 50%;
+    font-size: 80px;
+    text-align: center;
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.update-button {
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+
+.update-button, .input {
+    text-align: left;
+    align-items: left;
+}
+
+
+.input-field {
+    height: 50px;
+    width: 150px;
+    margin: 0px 15px 35px;
+    font-size: x-large;
+    border-radius: 5px;
+    border: none;
+    text-align: left;    
 }
